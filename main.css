@@ -1,0 +1,17 @@
+#card {
+    box-shadow: 12px 12px 24px #b2b8c9;
+    text-align: center;
+    margin: 20px;
+}
+.main-btn {
+    box-shadow: 6px 6px 12px #b2b8c9; 
+    border: 0px dashed black;
+}
+button:focus {
+    filter: brightness(120%);
+}
+#app {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
